@@ -9,6 +9,11 @@
 
 <p align="center">一个基于 Electron & Vue 开发的音乐软件</p>
 
+<p align="center">
+  <strong>桌面版</strong>：<a href="https://github.com/voidora-studio/melody-workshop">melody-workshop</a><br>
+  <strong>移动版</strong>：<a href="https://github.com/voidora-studio/melody-workshop-mobile">melody-workshop-mobile</a>
+</p>
+
 ## 说明
 
 **旋律工坊** 是基于开源项目 [LX Music（洛雪音乐助手）桌面版](https://github.com/lyswhut/lx-music-desktop) 进行二次开发、品牌重设计与功能增强的派生版本。
