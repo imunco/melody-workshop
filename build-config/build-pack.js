@@ -49,6 +49,7 @@ const options = {
       provider: 'github',
       owner: 'imunco',
       repo: 'melody-workshop',
+      releaseType: 'release',
     },
   ],
 }
