@@ -1,6 +1,6 @@
 {
   "name": "melody-workshop",
-  "version": "2.12.2",
+  "version": "1.2.3",
   "description": "旋律工坊 — 基于洛雪音乐助手（LX Music）开源项目的音乐查找与播放桌面版（wzystudio 维护发行）",
   "main": "./dist/main.js",
   "scripts": {

@@ -10,8 +10,8 @@
 <p align="center">一个基于 Electron & Vue 开发的音乐软件</p>
 
 <p align="center">
-  <strong>桌面版</strong>：<a href="https://github.com/voidora-studio/melody-workshop">melody-workshop</a><br>
-  <strong>移动版</strong>：<a href="https://github.com/voidora-studio/melody-workshop-mobile">melody-workshop-mobile</a>
+  <strong>桌面版</strong>：<a href="https://github.com/imunco/melody-workshop">melody-workshop</a><br>
+  <strong>移动版</strong>：<a href="https://github.com/imunco/melody-workshop-mobile">melody-workshop-mobile</a>
 </p>
 
 ## 说明
@@ -85,6 +85,19 @@
 ## 源码使用方法
 
 请参阅：<https://lyswhut.github.io/lx-music-doc/desktop/use-source-code>
+
+## 反馈与联系
+
+如果你在使用过程中遇到问题或有任何建议，可通过以下渠道反馈：
+
+- **Issue 提交**：在 [GitHub Issues](https://github.com/imunco/melody-workshop/issues) 提交问题或建议。提交前请先搜索是否已有相关 Issue，避免重复。
+- **QQ 群交流**：加入「奇点未码 · Uncoders」QQ 群进行交流与反馈。
+
+    <a href="https://qm.qq.com/q/ainGgIul8I" target="_blank">
+      <strong>点击链接加入群聊【奇点未码 · Uncoders】</strong>
+    </a>
+
+---
 
 ## 项目协议
 
