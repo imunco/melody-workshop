@@ -1,20 +1,17 @@
 import { httpGet } from './request'
-import pkg from '../../../package.json'
 
 // TODO add Notice
 
-const author = pkg.author.name
-const name = pkg.name
+const GITHUB_OWNER = 'imunco'
+const GITHUB_REPO = 'melody-workshop'
+const FILE_PATH = 'publish/version.json'
 
 const address = [
-  [`https://raw.githubusercontent.com/${author}/${name}/master/publish/version.json`, 'direct'],
-  ['https://registry.npmjs.org/lx-music-desktop-version-info/latest', 'npm'],
-  [`https://cdn.jsdelivr.net/gh/${author}/${name}/publish/version.json`, 'direct'],
-  [`https://fastly.jsdelivr.net/gh/${author}/${name}/publish/version.json`, 'direct'],
-  [`https://gcore.jsdelivr.net/gh/${author}/${name}/publish/version.json`, 'direct'],
-  ['https://registry.npmmirror.com/lx-music-desktop-version-info/latest', 'npm'],
-  ['https://gitee.com/lyswhut/lx-music-desktop-versions/raw/master/version.json', 'direct'],
-  ['http://cdn.stsky.cn/lx-music/desktop/version.json', 'direct'],
+  [`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/master/${FILE_PATH}`, 'direct'],
+  [`https://cdn.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}/${FILE_PATH}`, 'direct'],
+  [`https://fastly.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}/${FILE_PATH}`, 'direct'],
+  [`https://gcore.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}/${FILE_PATH}`, 'direct'],
+  [`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${FILE_PATH}`, 'direct'],
 ]
 
 const request = async(url, retryNum = 0) => {
