@@ -175,7 +175,10 @@ const createTarget = {
   win(arch, packageType) {
     switch (packageType) {
       case 'setup':
-        winOptions.artifactName = `\${productName}-v\${version}-${arch}-Setup.\${ext}`
+        // artifactName 中包含非 ASCII 字符时，electron-builder 的 GitHub publisher
+        // 会回退到默认命名（不含 arch），导致 x64/arm64 安装器上传到同一文件名并相互覆盖
+        // 改用纯 ASCII 模板，让架构信息保留在上传文件名中
+        winOptions.artifactName = `melody-workshop-setup-\${version}-${arch}.\${ext}`
         return {
           buildOptions: { win: ['nsis'] },
           options: winOptions,
