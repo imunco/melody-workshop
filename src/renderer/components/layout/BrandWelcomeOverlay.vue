@@ -12,7 +12,7 @@
         <melody-empty-art :size="88" />
         <h2 :class="$style.titleZh">{{ brand.displayName }}</h2>
         <p :class="$style.titleEn">{{ brand.displayNameEn }}</p>
-        <p :class="$style.studio">wzystudio</p>
+        <p :class="$style.studio">奇点未码·Uncode Studio</p>
         <p :class="$style.tip">{{ $t('melody_brand_welcome_tip') }}</p>
         <div :class="$style.actions">
           <base-btn min @click="goAbout">{{ $t('melody_brand_welcome_about') }}</base-btn>

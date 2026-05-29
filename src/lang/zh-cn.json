@@ -292,7 +292,7 @@
   "search__welcome": "搜我所想~~😉",
   "setting": "设置",
   "setting__about": "关于旋律工坊",
-  "setting__melody_identity_br": "发行说明：本发行版由 wzystudio 独立维护与分发，与上游 GitHub Release 无绑定关系；若未配置独立更新源，版本检查仍可能指向开源上游，请以本页说明为准。",
+  "setting__melody_identity_br": "发行说明：本发行版由 奇点未码·Uncode Studio 独立维护与分发，与上游 GitHub Release 无绑定关系；若未配置独立更新源，版本检查仍可能指向开源上游，请以本页说明为准。",
   "setting__melody_pack_title": "旋律工坊套系",
   "setting__melody_pack_desc": "一键应用「旋律工坊」内置主题，并同步桌面歌词为青绿→珊瑚渐变配色（与任务栏按钮、应用图标同源）。",
   "setting__melody_pack_apply": "一键应用工坊套系",

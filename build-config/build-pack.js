@@ -60,7 +60,7 @@ const options = {
 const winOptions = {
   win: {
     icon: './resources/icons/icon.ico',
-    legalTrademarks: 'wzystudio',
+    legalTrademarks: '奇点未码·Uncode Studio',
     // artifactName: '${productName}-v${version}-${env.ARCH}-${env.TARGET}.${ext}',
   },
   nsis: {
@@ -78,7 +78,7 @@ const winOptions = {
  */
 const linuxOptions = {
   linux: {
-    maintainer: 'wzystudio',
+    maintainer: '奇点未码·Uncode Studio',
     // artifactName: '${productName}-${version}.${env.ARCH}.${ext}',
     icon: './resources/icons',
     category: 'Utility;AudioVideo;Audio;Player;Music;',

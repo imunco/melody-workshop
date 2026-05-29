@@ -10,7 +10,7 @@ export const APP_BRAND = {
   displayName: '旋律工坊',
   /** 英文界面与文档中的统一名称 */
   displayNameEn: 'Melody Workshop',
-  studio: 'wzystudio',
+  studio: '奇点未码·Uncode Studio',
   /** 上游开源项目（洛雪音乐助手桌面版） */
   upstreamDisplayName: 'LX Music（洛雪音乐助手）',
   upstreamRepoReadmeUrl: 'https://github.com/lyswhut/lx-music-desktop#readme',

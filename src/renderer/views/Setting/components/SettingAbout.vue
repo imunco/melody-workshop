@@ -8,6 +8,15 @@ dd
     | &nbsp;维护发行。界面与图标已按本发行版统一设计。
   .p.small {{ $t('setting__melody_identity_br') }}
   .p.small
+    strong 反馈与联系：
+    br
+    | Bug 报告或功能建议请提交&nbsp;
+    span.hover.underline(:aria-label="$t('setting__click_open')" @click="openUrl('https://github.com/imunco/melody-workshop/issues')") GitHub Issue →
+    br
+    | 加入 QQ 群交流：&nbsp;
+    span.hover.underline(:aria-label="$t('setting__click_open')" @click="openUrl('https://qm.qq.com/q/ainGgIul8I')") https://qm.qq.com/q/ainGgIul8I
+  br
+  .p.small
     strong 源项目说明：
     | 本软件基于开源项目&nbsp;
     strong {{ brand.upstreamDisplayName }}

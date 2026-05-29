@@ -2,6 +2,15 @@
 
 项目版本号遵循 [Semantic Versioning](http://semver.org/)。
 
+## [1.2.4] - 2026-05-29
+
+### 变更
+
+- 品牌统一：署名由 wzystudio 切换为「奇点未码·Uncode Studio」
+- Issue 模板仓库迁移至 imunco
+- 关于页面新增「反馈与联系」板块，含 Issue 指引与 QQ 群链接
+- 版本检查逻辑加固（字符串等值守卫）
+
 ## [1.2.3] - 2026-05-27
 
 ### 变更

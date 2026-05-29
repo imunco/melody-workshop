@@ -4,7 +4,7 @@
 
 <p align="center">
   <em>基于 LX Music（洛雪音乐助手）开源项目的音乐查找与播放桌面版</em><br>
-  <strong>wzystudio 维护发行</strong>
+  <strong>奇点未码·Uncode Studio 维护发行</strong>
 </p>
 
 <p align="center">一个基于 Electron & Vue 开发的音乐软件</p>
@@ -32,7 +32,7 @@
 ### 与本版相关
 
 - **品牌**：界面、图标、主题色已按「旋律工坊」统一设计
-- **署名**：本发行版由 **wzystudio** 维护与分发
+- **署名**：本发行版由 **奇点未码·Uncode Studio** 维护与分发
 - **数据目录**：数据存储在 `MelodyWorkshopData` 目录下（与上游旧版 `LxDatas` 不共享）
 
 ### 上游说明

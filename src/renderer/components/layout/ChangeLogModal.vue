@@ -47,7 +47,7 @@ export default {
         isLatest: true,
       }
       if (!versionInfo.newVersion?.history) return info
-      info.isLatest = compareVer(currentVer, versionInfo.newVersion.version) >= 0
+      info.isLatest = currentVer === versionInfo.newVersion.version || compareVer(currentVer, versionInfo.newVersion.version) >= 0
 
       const history = [{ version: versionInfo.newVersion.version, desc: versionInfo.newVersion.desc }, ...versionInfo.newVersion.history]
 

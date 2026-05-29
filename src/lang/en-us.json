@@ -292,7 +292,7 @@
   "search__welcome": "Search what I want~~ 😉",
   "setting": "Settings",
   "setting__about": "About Melody Workshop",
-  "setting__melody_identity_br": "Distribution: this build is maintained and published by wzystudio and is not tied to upstream GitHub Releases; if no custom update feed is configured, update checks may still point to the upstream open-source project—take this page as the source of truth.",
+  "setting__melody_identity_br": "Distribution: this build is maintained and published by 奇点未码·Uncode Studio and is not tied to upstream GitHub Releases; if no custom update feed is configured, update checks may still point to the upstream open-source project—take this page as the source of truth.",
   "setting__melody_pack_title": "Melody Workshop pack",
   "setting__melody_pack_desc": "Apply the built-in Melody Workshop theme and match desktop lyrics to the teal→coral gradient (same family as taskbar icons and the app icon).",
   "setting__melody_pack_apply": "Apply workshop pack",

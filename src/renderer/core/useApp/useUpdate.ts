@@ -111,7 +111,7 @@ export default () => {
         return
       }
       versionInfo.isUnknown = false
-      if (compareVer(versionInfo.version, result.version) != -1) {
+      if (versionInfo.version === result.version || compareVer(versionInfo.version, result.version) != -1) {
         versionInfo.status = 'idle'
         versionInfo.isLatest = true
         handleShowChangeLog()
